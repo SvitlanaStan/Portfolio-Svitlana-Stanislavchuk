@@ -1,20 +1,52 @@
 body {
-  background: pink;
-  margin: 0;
+  background: #f5f5f5;
+  margin: 0 auto;
 }
 
 h1 {
-  position: absolute;
-  width: 146px;
-  height: 23px;
-  left: 1450px;
-  top: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 69px;
+  color: #000000;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
 
+.hello {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-
+  font-size: 20px;
+  line-height: 24px;
   color: #000000;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+  position: absolute;
+  width: 557px;
+  height: 203px;
+  left: 808px;
+  top: 220px;
+  color: #000000;
+}
+
+.btn-branding {
+  color: #ffaaa5;
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 819px;
+  top: 480px;
+  background: #ffaaa5;
+  border-radius: 5px;
 }
