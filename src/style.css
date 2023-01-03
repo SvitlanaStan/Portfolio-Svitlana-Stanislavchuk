@@ -11,6 +11,7 @@ h1 {
   line-height: 69px;
   color: #000000;
 }
+
 h2 {
   font-family: "Inter";
   font-style: normal;
@@ -41,8 +42,6 @@ h2 {
 }
 
 .btn-branding {
-  color: #ffaaa5;
-  position: absolute;
   width: 170px;
   height: 43px;
   left: 819px;
