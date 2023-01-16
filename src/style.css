@@ -36,6 +36,16 @@ h2 {
   color: #ffaaa5;
 }
 
+.mydogprofile {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  right: 900px;
+  top: 30px;
+  max-width: 20%;
+  border-radius: 20px;
+}
+
 .hero {
   position: absolute;
   width: 557px;
@@ -53,5 +63,8 @@ h2 {
   top: 480px;
   background: #ffaaa5;
   border-radius: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.btn-branding:hover {
   color: rgba(0, 0, 0, 0.5);
 }
