@@ -17,7 +17,8 @@ h1 {
   color: #000000;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -38,6 +39,10 @@ img {
   border-radius: 20px;
 }
 
+a {
+  /* text-decoration: none; */
+  color: var(--secondary-color);
+}
 .hello {
   font-family: "Inter";
   font-style: normal;
