@@ -28,13 +28,14 @@ h3 {
 }
 
 p {
+  margin: 0 30px;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 
 img {
-  margin: 0 auto;
+  margin: 0 30px;
   width: 300px;
   border-radius: 20px;
 }
@@ -74,6 +75,7 @@ a {
   height: 43px;
   left: 819px;
   top: 480px;
+  margin-bottom: 30px;
   background: var(--branding-color);
   border-radius: 5px;
   color: var(--secondary-color);
