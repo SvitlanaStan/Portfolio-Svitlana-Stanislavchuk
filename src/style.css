@@ -19,7 +19,7 @@ h1 {
 
 h2,
 h3 {
-  padding-top: 30px;
+  padding-top: 0px;
   text-align: center;
   font-family: "Inter";
   font-style: normal;
@@ -102,6 +102,10 @@ a {
   font-size: 20px;
   line-height: 80px;
 }
+.logo {
+  max-width: 150px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
