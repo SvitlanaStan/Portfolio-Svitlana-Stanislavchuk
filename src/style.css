@@ -19,6 +19,8 @@ h1 {
 
 h2,
 h3 {
+  padding-top: 30px;
+  text-align: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -28,10 +30,12 @@ h3 {
 }
 
 p {
-  margin: 0 30px;
+  text-align: center;
+  margin: 30px;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.5;
+  color: var(--secondary-color);
 }
 
 img {
@@ -50,6 +54,7 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  text-align: start;
   color: #000000;
   border: 1px solid #000000;
   border-radius: 10px;
