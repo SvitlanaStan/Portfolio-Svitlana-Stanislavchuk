@@ -1,6 +1,7 @@
 :root {
   --branding-color: #ffaaa5;
-  --secondary-color: rgba(0, 0, 0, 0.5);
+  --primary-color: rgba(0, 0, 0, 0.5);
+  --secondary-color: #000000;
 }
 
 body {
@@ -14,7 +15,7 @@ h1 {
   font-weight: 700;
   font-size: 57px;
   line-height: 69px;
-  color: #000000;
+  color: var(--secondary-color);
 }
 
 h2,
@@ -26,7 +27,7 @@ h3 {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 p {
@@ -35,7 +36,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 img {
@@ -45,9 +46,32 @@ img {
 }
 
 a {
-  /* text-decoration: none; */
+  text-decoration: none;
+  color: var(--primary-color);
+}
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700px;
+}
+nav a:hover {
   color: var(--secondary-color);
 }
+
 .hello {
   font-family: "Inter";
   font-style: normal;
@@ -55,8 +79,8 @@ a {
   font-size: 20px;
   line-height: 24px;
   text-align: start;
-  color: #000000;
-  border: 1px solid #000000;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 10px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -70,7 +94,7 @@ a {
   height: 300px;
   margin-top: 100px;
   margin-right: 300px;
-  color: #000000;
+  color: var(--secondary-color);
   background: #fcf8f3;
   border-radius: 20px;
 }
@@ -83,29 +107,15 @@ a {
   margin-bottom: 30px;
   background: var(--branding-color);
   border-radius: 5px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .btn-branding:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .logo {
   max-width: 150px;
   border-radius: 5px;
-}
-
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
 }
 
 #myphoto {
