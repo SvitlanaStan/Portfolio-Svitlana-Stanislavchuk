@@ -68,8 +68,13 @@ nav a {
   text-decoration: none;
   font-weight: 700px;
 }
+nav li.active a,
 nav a:hover {
-  color: var(--secondary-color);
+  color: var(--branding-color);
+}
+
+nav a:hover {
+  transition: all 150ms ease-in-out;
 }
 
 .hello {
