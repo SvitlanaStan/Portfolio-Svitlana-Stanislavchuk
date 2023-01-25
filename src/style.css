@@ -20,19 +20,17 @@ h1 {
 
 h2,
 h3 {
-  padding-top: 0px;
-  text-align: center;
+  padding-top: 20px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: var(--primary-color);
 }
 
 p {
-  text-align: center;
-  margin: 30px;
+  text-align: left;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -40,21 +38,29 @@ p {
 }
 
 img {
-  margin: 0 30px;
-  width: 300px;
+  margin: 0 150px;
+  width: 30%;
   border-radius: 20px;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
+.logo {
+  max-width: 150px;
+  border-radius: 5px;
+}
+
 nav {
-  padding: 20px 0;
+  padding: 20px;
+  font-weight: bolder;
 }
 
 nav ul {
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
 }
 nav li {
@@ -83,51 +89,52 @@ nav a:hover {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  margin-left: 0;
   text-align: start;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-  border-radius: 10px;
+  border-radius: 7px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .fa-circle {
   color: var(--branding-color);
+  padding: 5px;
 }
 
 .hero {
-  width: 557px;
-  height: 300px;
-  margin-top: 100px;
-  margin-right: 300px;
+  /* width: 557px; */
+  /* height: 300px; */
+  /* margin-top: 100px; */
+  margin-right: 100px;
   color: var(--secondary-color);
   background: #fcf8f3;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 .btn-branding {
   width: 170px;
   height: 43px;
-  left: 819px;
-  top: 480px;
-  margin-bottom: 30px;
+  font-weight: 500;
+  /* left: 819px; */
+  /* top: 480px; */
+  margin: 20px 0;
   background: var(--branding-color);
-  border-radius: 5px;
+  border-radius: 7px;
   color: var(--primary-color);
 }
 .btn-branding:hover {
   color: var(--primary-color);
 }
-
-.logo {
-  max-width: 150px;
-  border-radius: 5px;
+.row {
+  /* padding-bottom: 20px; */
 }
 
-#myphoto {
+/* #myphoto {
   margin-top: 100px;
   margin-left: 400px;
   max-width: 130px;
-}
+} */
 
 #projects {
   font-family: "Inter";
@@ -135,6 +142,10 @@ nav a:hover {
   font-weight: 700;
   font-size: 20px;
   line-height: 80px;
+}
+
+#middle-project {
+  margin-top: 60px;
 }
 
 @media (max-width: 900px) {
