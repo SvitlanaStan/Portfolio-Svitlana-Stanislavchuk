@@ -50,8 +50,9 @@ a {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 500px;
   border-radius: 5px;
+  margin: 0;
 }
 
 nav {
@@ -87,13 +88,19 @@ footer {
   margin: 50px 0;
 }
 
+footer .contact-box {
+  border: 1px solid var(--branding-color);
+  padding: 20px 100px;
+  border-radius: 10px;
+}
+
 footer .email-link {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 15px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 footer .social-links a {
