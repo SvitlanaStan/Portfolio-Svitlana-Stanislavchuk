@@ -90,8 +90,12 @@ footer {
 
 footer .contact-box {
   border: 1px solid var(--branding-color);
-  padding: 20px 100px;
+  padding: 20px 200px;
   border-radius: 10px;
+}
+
+footer .contact-box .btn-branding {
+  margin-left: 100px;
 }
 
 footer .email-link {
@@ -203,5 +207,9 @@ footer .social-links a:hover {
   .project-desciption {
     text-align: center;
     padding: 0;
+  }
+
+  footer .contact-box {
+    padding: 20px;
   }
 }
