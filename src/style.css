@@ -19,7 +19,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   padding-top: 20px;
   font-family: "Inter";
   font-style: normal;
@@ -166,6 +167,10 @@ footer .social-links a:hover {
 
 .content p {
   text-align: center;
+}
+
+.content h4 {
+  color: var(--branding-color);
 }
 /* #myphoto {
   margin-top: 100px;
