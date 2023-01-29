@@ -160,6 +160,13 @@ footer .social-links a:hover {
   color: var(--primary-color);
 }
 
+.content {
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+}
 /* #myphoto {
   margin-top: 100px;
   margin-left: 400px;
