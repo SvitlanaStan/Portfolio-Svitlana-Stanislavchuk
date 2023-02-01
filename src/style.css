@@ -31,7 +31,7 @@ h4 {
 }
 
 p {
-  text-align: left;
+  /* text-align: left; */
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -39,21 +39,14 @@ p {
 }
 
 img {
-  margin: 0 150px;
-  width: 30%;
+  width: 40%;
   border-radius: 20px;
-  text-align: center;
+  margin-left: 150px;
 }
 
 a {
   text-decoration: none;
   color: var(--primary-color);
-}
-
-.logo {
-  max-width: 500px;
-  border-radius: 5px;
-  margin: 0;
 }
 
 nav {
@@ -136,6 +129,12 @@ footer .social-links a:hover {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.logo {
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 0;
+}
+
 .fa-circle {
   color: var(--branding-color);
   padding: 5px;
@@ -172,11 +171,10 @@ footer .social-links a:hover {
 .content h4 {
   color: var(--branding-color);
 }
-/* #myphoto {
-  margin-top: 100px;
-  margin-left: 400px;
-  max-width: 130px;
-} */
+#myphoto {
+  margin-left: 300px;
+  max-width: 30%;
+}
 
 #projects {
   font-family: "Inter";
@@ -186,7 +184,15 @@ footer .social-links a:hover {
   line-height: 80px;
 }
 
-#middle-project {
+#middle-project p {
+  margin-left: 150px;
+}
+
+#middle-project h2 {
+  margin-left: 150px;
+}
+
+#middle-project a {
   margin-left: 150px;
 }
 
@@ -197,13 +203,16 @@ footer .social-links a:hover {
   }
 
   h1,
+  h2,
+  h3,
   .hello,
   .hero {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     margin: 0;
-    font-weight: 100;
+    font-weight: 50;
+    color: #000000;
   }
 
   nav {
@@ -211,13 +220,35 @@ footer .social-links a:hover {
     text-align: center;
     font-size: 15px;
   }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
   .logo {
-    max-width: 30%;
+    width: 70px;
     margin-left: 0;
+    display: block;
+    align-items: flex-start;
   }
 
   .project-desciption {
+    margin: 0;
     text-align: center;
     padding: 0;
+  }
+
+  a {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #middle-project p {
+    margin-left: 0;
+  }
+
+  #middle-project a {
+    margin-left: 0;
   }
 }
