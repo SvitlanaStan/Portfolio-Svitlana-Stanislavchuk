@@ -41,8 +41,8 @@ p {
 }
 
 img {
-  width: 40%;
-  border-radius: 20px;
+  width: 70%;
+  border-radius: 7px;
   margin-left: 150px;
 }
 
@@ -173,6 +173,11 @@ footer .social-links a:hover {
 .content h4 {
   color: var(--branding-color);
 }
+
+#other-project {
+  width: 40%;
+}
+
 #myphoto {
   margin-left: 300px;
   max-width: 30%;
